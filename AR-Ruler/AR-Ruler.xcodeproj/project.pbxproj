@@ -56,9 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				CC621A2B2A602E3D00D96605 /* AppDelegate.swift */,
-				CC621A2D2A602E3D00D96605 /* art.scnassets */,
 				CC621A2F2A602E3D00D96605 /* ViewController.swift */,
 				CC621A312A602E3D00D96605 /* Main.storyboard */,
+				CC621A2D2A602E3D00D96605 /* art.scnassets */,
 				CC621A342A602E3E00D96605 /* Assets.xcassets */,
 				CC621A362A602E3E00D96605 /* LaunchScreen.storyboard */,
 			);
@@ -302,6 +302,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jin.yoo.AR-Ruler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,6 +335,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jin.yoo.AR-Ruler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
